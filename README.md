@@ -1,16 +1,30 @@
-### Hi there 👋
+# KDD2021-Submission2051
 
-<!--
-**GSL4Rec/GSL4Rec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Requirements
 
-Here are some ideas to get you started:
+To install requirements:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```setup
+conda env create -f environment.yaml
+```
+
+## Data Process
+
+Prepare the experiment data for Training:
+
+```setup
+python data_process.py
+```
+
+## Training
+
+To train the model(s) in the paper:
+
+```setup
+python train.py
+```
+> Output: the file "output.tar"
+
+
+
+
