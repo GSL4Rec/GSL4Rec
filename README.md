@@ -1,29 +1,8 @@
-# GSL4Rec
+# GSL4Rec: Session-based Recommendations with Collective Graph Structure Learning and Next Interaction Prediction
 
-## Requirements
+This is the code in [GSL4Rec: Session-based Recommendations with Collective Graph Structure Learning and Next Interaction Prediction](<https://dl.acm.org/doi/10.1145/3485447.3512085>) which has been accepted by WWW 2022. 
 
-To install requirements:
-
-```setup
-conda env create -f environment.yaml
-```
-
-## Data Process
-
-Prepare the experiment data for Training:
-
-```setup
-python data_process.py
-```
-
-## Training
-
-To train the model(s) in the paper:
-
-```setup
-python train.py
-```
-> Output: the file "output.tar"
+Please go to [https://github.com/weicy15/GSL4Rec](<https://github.com/weicy15/GSL4Rec>) 
 
 
 
